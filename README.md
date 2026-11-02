@@ -7,7 +7,9 @@
 <p align="center">贴在桌面底部的像素风放置小游戏：开荒种田、养鸡养牛、打怪刷装备，再下地堡闯一闯。</p>
 
 <p align="center">
-  <a href="https://github.com/chichichiyuyu/farm-and-dungeon/releases/latest"><b>⬇ 下载最新版本</b></a>
+  <a href="https://github.com/chichichiyuyu/farm-and-dungeon/releases/latest"><b>⬇ 下载电脑版</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://chichichiyuyu.github.io/farm-and-dungeon/"><b>▶ 手机 / 浏览器直接玩</b></a>
 </p>
 
 <p align="center">
@@ -22,12 +24,20 @@
 - **macOS**：`maze-farm-<版本>-universal.dmg`，Intel 与 Apple 芯片通用。打开后把「农场与地堡」拖进「应用程序」。
 - **Windows**：`maze-farm-<版本>-setup.exe`，双击即可安装。
 
-安装包没有签名：macOS 首次打开请在「应用程序」里右键选择「打开」；Windows 出现 SmartScreen 提示时点「更多信息 → 仍要运行」。
+安装包没有签名：macOS 首次打开被拦截时，到「系统设置 → 隐私与安全性」底部点「仍要打开」；Windows 出现 SmartScreen 提示时点「更多信息 → 仍要运行」。
 
 存档保存在本机，升级安装不会丢失：
 
 - macOS：`~/Library/Application Support/农场与地堡`
 - Windows：`%APPDATA%\农场与地堡`
+
+## 手机版
+
+手机浏览器打开 <https://chichichiyuyu.github.io/farm-and-dungeon/> 就能玩：竖屏全屏，领地从下往上开垦，大本营在右下角。
+
+- **添加到主屏幕**：iPhone 在 Safari 里点「分享 → 添加到主屏幕」，安卓在浏览器菜单里选「添加到主屏幕」或「安装应用」。之后从桌面图标打开即全屏，断网也能玩。iPhone 建议一定添加：Safari 会清理 7 天没打开过的网站数据，主屏幕上的应用不受影响。
+- **操作**：点按代替左键；长按农田、牧场、金矿打开详情，长按大本营打开菜单；上下滑动查看更远的领地。功能按钮在屏幕底部，「菜单」里可以切换语言、重置存档。
+- **存档**：保存在这台手机的浏览器里，与电脑版各自独立；清除浏览器的网站数据会删除存档。
 
 ## 玩法
 
@@ -67,7 +77,9 @@
 
 The window stays on top and docks to the bottom of the screen. Click the castle or press `Cmd/Ctrl + Shift + G` to collapse it into a tiny castle, right-click for the game menu, and drag the castle to move it to another display. The UI follows your system language (Simplified Chinese or English).
 
-Download the macOS `.dmg` or Windows `.exe` from [Releases](https://github.com/chichichiyuyu/farm-and-dungeon/releases/latest). The installers are unsigned: on macOS right-click the app and choose Open the first time; on Windows choose "More info → Run anyway".
+Download the macOS `.dmg` or Windows `.exe` from [Releases](https://github.com/chichichiyuyu/farm-and-dungeon/releases/latest). The installers are unsigned: if macOS blocks the first launch, open System Settings → Privacy & Security and click "Open Anyway"; on Windows choose "More info → Run anyway".
+
+On a phone, just open <https://chichichiyuyu.github.io/farm-and-dungeon/> — a full-screen portrait version where your land grows upward. Tap to act, long-press a tile for details (long-press the base for the menu), and swipe to scroll. Add it to your home screen for full screen and offline play; the save stays in that browser and is separate from the desktop version.
 
 This repository only hosts the installers; the source code is not public. Free to download and play. © 2026 jiangchiyu. All rights reserved.
 
